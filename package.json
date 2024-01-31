@@ -5,7 +5,7 @@
 	"author": "Diogo Resende <dresende@thinkdigital.pt> & Peter",
 	"license": "MIT",
 	"main": "lib/Modbus.js",
-	"repository": "http://github.com/node-modbus/pdu.git",
+	"repository": "http://github.com/zmartifyPKR/node-modbus/pdu.git",
 	"scripts": {
 		"test": "node test/run",
 		"maketypes": "npx -p typescript tsc lib/**/*.js --declaration --allowJs --emitDeclarationOnly --outDir types"
