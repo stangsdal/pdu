@@ -6,14 +6,15 @@
 	"license": "MIT",
 	"main": "lib/Modbus.js",
 	"repository": "http://github.com/node-modbus/pdu.git",
+	"scripts": {
+		"test": "node test/run",
+		"maketypes": "npx -p typescript tsc lib/**/*.js --declaration --allowJs --emitDeclarationOnly --outDir types"
+	},
 	"keywords": [
 		"modbus",
 		"pdu",
 		"exception"
 	],
-	"scripts": {
-		"test": "node test/run"
-	},
 	"devDependencies": {
 		"mocha": "10.2.0"
 	}
